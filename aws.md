@@ -40,51 +40,51 @@
 - Virtual Machine is the virtual environment that works like a computer within computer.
 
 
-**Elements of EC2**
-Instance:
+## Elements of EC2
+**Instance:**
 Instance is an EC2 virtual machine.
 
-AMI:
+**AMI:**
 Amazon machine image contain operating system and additional software needed to launch EC2 instance.
 
-Key Pair:
+**Key Pair:**
 Helps to connect to your EC2 instances.
 Consist of Public key and Private Key.
 
-Security Group:
+**Security Group:**
 Security Group acts as a virtual firewall for EC2 instances to control inbound and outbound traffic.
  
-EC2 Tags
+**EC2 Tags**
 Tag is a label
 Consist of key and value
 Must be unique
 
-Inbound
+**Inbound**
 Inbound means who can configure to your EC2 instances from outside
 
-Outbound 
+**Outbound** 
 Outbound means what your EC2 instance can connect with.
 
 
-Instance Type
+**Instance Type**
 General Purpose Instance
 Compute Purpose Instance
 Memory Purpose Instance
 Storage Purpose Instance
 
 
-Subnet
+**Subnet**
 Subnet is a range of IP address in your VPC.
 You need to provide at least two subnet to create VPC connection.
 Each subnet must belong to different availability zone.
 
 
-Public Subnet
+**Public Subnet**
 It is a subnet that interact with internet and can be accessed through the internet.
 
-Private Subnet
+**Private Subnet**
 It is a subnet that can not be reached from Internet.
 We can create AWS resources which are only used inside VPC for internal purpose.
 
-Internet Gateway
+**Internet Gateway**
 Acts as a gateway b/w VPC and Internet.
