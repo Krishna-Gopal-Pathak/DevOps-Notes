@@ -41,50 +41,50 @@
 
 
 ## Elements of EC2
-**Instance:**
-Instance is an EC2 virtual machine.
+**Instance:** <br/>
+- Instance is an EC2 virtual machine.<br/>
 
-**AMI:**
-Amazon machine image contain operating system and additional software needed to launch EC2 instance.
+**AMI:** <br/>
+- Amazon machine image contain operating system and additional software needed to launch EC2 instance.<br/>
 
-**Key Pair:**
-Helps to connect to your EC2 instances.
-Consist of Public key and Private Key.
+**Key Pair:** <br/>
+- Helps to connect to your EC2 instances.<br/>
+- Consist of Public key and Private Key.<br/>
 
-**Security Group:**
-Security Group acts as a virtual firewall for EC2 instances to control inbound and outbound traffic.
+**Security Group:** <br/>
+- Security Group acts as a virtual firewall for EC2 instances to control inbound and outbound traffic.<br/>
  
-**EC2 Tags**
-Tag is a label
-Consist of key and value
-Must be unique
+**EC2 Tags** <br/>
+- Tag is a label<br/>
+- Consist of key and value<br/>
+- Must be unique<br/>
 
-**Inbound**
-Inbound means who can configure to your EC2 instances from outside
+**Inbound**<br/>
+- Inbound means who can configure to your EC2 instances from outside<br/>
 
-**Outbound** 
-Outbound means what your EC2 instance can connect with.
-
-
-**Instance Type**
-General Purpose Instance
-Compute Purpose Instance
-Memory Purpose Instance
-Storage Purpose Instance
+**Outbound** <br/>
+- Outbound means what your EC2 instance can connect with.<br/>
 
 
-**Subnet**
-Subnet is a range of IP address in your VPC.
-You need to provide at least two subnet to create VPC connection.
-Each subnet must belong to different availability zone.
+**Instance Type**<br/>
+- General Purpose Instance<br/>
+- Compute Purpose Instance<br/>
+- Memory Purpose Instance<br/>
+- Storage Purpose Instance<br/>
 
 
-**Public Subnet**
-It is a subnet that interact with internet and can be accessed through the internet.
+**Subnet**<br/>
+- Subnet is a range of IP address in your VPC.<br/>
+- You need to provide at least two subnet to create VPC connection.<br/>
+- Each subnet must belong to different availability zone.<br/>
 
-**Private Subnet**
-It is a subnet that can not be reached from Internet.
-We can create AWS resources which are only used inside VPC for internal purpose.
 
-**Internet Gateway**
-Acts as a gateway b/w VPC and Internet.
+**Public Subnet**<br/>
+- It is a subnet that interact with internet and can be accessed through the internet.<br/>
+
+**Private Subnet**<br/>
+- It is a subnet that can not be reached from Internet.<br/>
+- We can create AWS resources which are only used inside VPC for internal purpose.<br/>
+
+**Internet Gateway**<br/>
+- Acts as a gateway b/w VPC and Internet.
