@@ -1,0 +1,194 @@
+🔸What is the difference between Maven, Ant, and Jenkins?
+🔸Tool for CI/CD?
+🔸Alternative tool for CI/CD?
+🔸Describe the concept of a Jenkins workspace or workspace directory.
+🔸Difference between a Jenkins freestyle project and a pipeline:
+🔸What is a Jenkins master-slave architecture and why is it used?
+🔸What are build triggers in Jenkins?
+🔸What is a Jenkins job?
+🔸What is a Jenkins Build?
+🔸How does Jenkins interact with build tools like Maven or Gradle?
+🔸What are build artifacts, and how does Jenkins manage them?
+🔸Name some popular Jenkins plugins and their use cases.
+🔸How would you integrate Jenkins with tools like JIRA or Slack?
+🔸What is Jenkinsfile?
+🔸Which CI Tools are used in Jenkin?
+🔸Which commands can be used to start Jenkins manually?
+🔸What is SCM? Which SCM tools are supported in Jenkins?
+🔸What is Jenkins Agents?
+🔸
+🔸
+🔸
+🔸
+🔸
+
+🔸What is the difference between Maven, Ant, and Jenkins?
+🔹Maven
+  ⭕Maven is a build automation tool that helps to automate the process of building, testing, and deploying software.
+🔹Ant
+  ⭕Ant is a build automation tool. Ant is more flexible than Maven, as it allows you to define your own tasks and targets.
+🔹Jenkins
+  ⭕Its primary purpose is to automate various stages of the software development lifecycle, helping development teams to build, test, and deploy their applications more efficiently and reliably.
+
+
+
+🔸Tool for CI/CD?
+🔹Jenkins
+
+
+🔸Alternative tool for CI/CD?
+🔹bamboo, udeploy, Teamcity, tfs tool for ci/cd
+
+
+🔸Describe the concept of a Jenkins workspace or workspace directory.
+🔹A Jenkins workspace or workspace directory is a directory on the Jenkins master or slave node where Jenkins stores the working files for a build.
+🔹This includes:
+  ⭕Source code for the project being built
+  ⭕Build artifacts, such as the compiled Java bytecode or the packaged WAR file
+  ⭕Temporary files, such as the output of the build steps
+  ⭕Log files, which record the output of the build steps
+🔹The workspace directory is created by Jenkins when a build is started. It is deleted when the build is finished, or when the Jenkins master or slave node is restarted.
+
+
+
+
+🔸Difference between a Jenkins freestyle project and a pipeline:
+🔹Jenkins freestyle project:
+  ⭕It is a simple way to automate a task, such as building and deploying an application.
+  ⭕With a freestyle project, you are limited to the steps that are available in the Jenkins UI.
+🔹Jenkins pipeline:
+  ⭕It is a way to define the entire application lifecycle as a set of stages.
+  ⭕With a pipeline, you can define your own steps
+
+
+
+🔸What is a Jenkins master-slave architecture and why is it used?
+🔹A Jenkins master-slave architecture is a way to distribute the load of running Jenkins jobs across multiple machines. The master node is responsible for scheduling jobs, dispatching them to the slave nodes, and collecting the results. The slave nodes are responsible for actually running the jobs.
+🔹The master-slave architecture is used to improve the performance of Jenkins by distributing the load of running jobs across multiple machines. This can be especially helpful for large projects or projects that require a lot of computing resources.
+🔹The master-slave architecture is also used to improve the availability of Jenkins by making it possible to run jobs on multiple machines. If one machine fails, the jobs can be automatically restarted on another machine.
+
+
+
+
+🔸What are build triggers in Jenkins?
+🔹In Jenkins, a build trigger is a mechanism that causes a build to be automatically started.
+🔹Some of the most common build triggers include:
+  ⭕Poll SCM: This trigger causes a build to be started when changes are detected in the source code repository.
+  ⭕Build after other projects are built: This trigger causes a build to be started after a specified set of projects have been built.
+  ⭕Schedule: This trigger causes a build to be started at a specific time or interval.
+  ⭕Remote trigger: This trigger causes a build to be started by an external event, such as a webhook or a command-line call.
+  ⭕Manual trigger: This trigger allows a user to manually start a build.
+
+
+
+🔸What is a Jenkins job?
+🔹A Jenkins job is a unit of work that can be automated. It can be used to build, test, deploy, or perform any other task that you want to automate.
+
+🔸What is a Jenkins Build?
+🔹A Jenkins Build is the actual execution of job and it represents a single run of a particular job.
+
+
+
+🔸How does Jenkins interact with build tools like Maven or Gradle?
+🔹Direct integration
+  ⭕so that Jenkins can trigger builds, manage dependencies, and collect artifacts.
+🔹Plugin integration
+  ⭕Provide additional features, such as the ability to run unit tests, deploy applications, or generate reports
+🔹Scripting
+
+
+
+🔸What are build artifacts, and how does Jenkins manage them?
+🔹Build artifacts are the files that are produced by a build process. They can include compiled code, test results, documentation, and other files.
+🔹Jenkins can manage build artifacts in a few different ways:
+  ⭕Local storage
+  ⭕Remote storage
+  ⭕Artifactory
+
+
+🔸Name some popular Jenkins plugins and their use cases.
+🔹Jenkins Pipeline Plugin: This plugin allows you to define your build process in a Jenkinsfile, which is a text file that uses a Groovy DSL.
+🔹Maven Integration Plugin: This plugin integrates Jenkins with Maven, so that Jenkins can trigger builds, manage dependencies, and collect artifacts.
+🔹Gradle Integration Plugin: This plugin integrates Jenkins with Gradle, so that Jenkins can trigger builds, manage dependencies, and collect artifacts.
+🔹Git Plugin: This plugin integrates Jenkins with Git, so that Jenkins can clone repositories, checkout branches, and commit changes.
+🔹Slack Plugin: This plugin integrates Jenkins with Slack, so that Jenkins can send notifications to Slack channels.
+🔹JIRA Plugin: This plugin integrates Jenkins with JIRA, so that Jenkins can create and update JIRA tickets.
+🔹SonarQube Plugin: This plugin integrates Jenkins with SonarQube, so that Jenkins can analyze code quality.
+🔹Docker Plugin: This plugin integrates Jenkins with Docker, so that Jenkins can build and deploy Docker images.
+🔹Artifactory Plugin: This plugin integrates Jenkins with Artifactory, so that Jenkins can store and manage build artifacts.
+🔹Cucumber Plugin: This plugin integrates Jenkins with Cucumber, so that Jenkins can run Cucumber tests.
+
+
+
+
+🔸How would you integrate Jenkins with tools like JIRA or Slack?
+🔹Install the JIRA Plugin or Slack Plugin in Jenkins.
+🔹Configure the plugin to connect to your JIRA or Slack instance.
+🔹Create a Jenkins job that uses the plugin.
+🔹In the job configuration, specify the JIRA or Slack tickets that you want to create or update, or the Slack channels that you want to send notifications to.
+
+
+
+
+
+🔸What is Jenkinsfile?
+🔹The text file where all the definitions of pipelines are defined is called Jenkinsfile
+
+
+🔸Which CI Tools are used in Jenkin?
+1. Jenkins
+2. GitLab CI
+3. Travis CI
+4. CircleCI
+5. Codeship
+6. Go CD
+7. TeamCity
+8. Bamboo
+
+
+
+🔸Which commands can be used to start Jenkins manually?
+🔹(jenkins_url)/restart: This command forces Jenkins to restart immediately, without waiting for any builds to complete. Ex=http://localhost:8080/restart
+🔹(jenkins_url)/safeRestart: This command restarts Jenkins gracefully, waiting for all builds to complete before restarting.
+
+
+
+
+🔸What is SCM? Which SCM tools are supported in Jenkins?
+🔹SCM stands for Source Code Management. It is a system that helps you track changes to your source code over time.
+🔹Jenkins supports a variety of SCM tools, including:
+  ⭕Git: Git is a popular open-source SCM tool that is used by many developers. It is known for its flexibility and scalability.
+  ⭕Subversion: Subversion is a centralized SCM tool that is easy to use. It is a good choice for small projects.
+  ⭕CVS: CVS is an older SCM tool that is not as popular as Git or Subversion. However, it is still supported by Jenkins.
+  ⭕Mercurial: Mercurial is a distributed SCM tool that is similar to Git. It is a good choice for projects where you need to work offline.
+  ⭕Perforce: Perforce is a commercial SCM tool that is used by some large enterprises. It is known for its performance and scalability.
+
+
+🔸What is Jenkins Agents?
+🔹A Jenkins agent is a machine that is used to run build jobs as part of a jenkins pipeline. Agent can be a physical machine, a virtual machine or a container.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
