@@ -1,7 +1,7 @@
 ## AWS Auto Scaling
 - AWS Auto scaling is a service that monitors the application and automatically adds or remove compute resources depending on the actual uses or demand.
 - AWS Auto Scaling uses Cloudwatch to monitor the application and raise alarm to scale up or down resources depending on application needs.
-- EC2 Auto Scaling Group uses health check replacement and scaling policies.<br/>
+- EC2 Auto Scaling Group uses health check replacement and scaling policies.<br/><br/>
 **EC2 Auto Scaling Group**
 - EC2 Auto Scaling Group maintains the instances and scales automatically.
   - Minimum Size [1]
