@@ -88,3 +88,63 @@
 
 **Internet Gateway**<br/>
 - Acts as a gateway b/w VPC and Internet.
+
+## Availability
+- How long system is operational and able to deliver data upon request.
+
+## Durability
+- Data should not be lost or corrupted in long run.
+
+
+## CDN in AWS
+- Amazon cloudfront is a content delivery network service that speeds up the delivery of web content, images, videos and application by caching them in edge location.
+
+## Caching 
+- Store a copy of data in temporary or cache storage location so it can be accessed more quickly.
+
+## IAM
+- Identity Access Management.
+- Ensure that right person has access to the right service or resources.
+
+## Identity
+- Identity is the ability to identify a unique user.
+
+## Authentication
+- Authentication is the process of recognizing a user's identity.
+
+## Authorization
+- Authorization is the process of giving someone the permission to access something
+
+
+
+## IAM Policy
+- IAM policy is an entity, when attached to identity and resources defines its permission.
+
+## Types of IAM Policy
+- Identity-Based Policy
+  - AWS Managed Policy
+  - Customer Managed Policy
+- Resourced-Based Policy
+- Inline Policy
+
+
+## IAM Role
+- IAM Role is like an IAM User attached with an IAM Policy that determines what a role can and cannot do in AWS.
+
+
+## IAM Group
+- IAM Group is a collection User and permission assigned to those user.
+- For Example: You have a user group called Admin and give that group administrator permission. Any user in that group automatically has Admin group permission.
+
+
+## IAM User
+- IAM user is an identity within your AWS account that has specific permission for a single person or application.
+- These permission define what user can do in AWS.
+- IAM user can be used to grant access to AWS resources to people or resources.
+
+
+## S3
+- Simple Storage Service
+- Allows to store,retreive,access, and backup any amount of data at any time from anywhere over the internet.
+
+
