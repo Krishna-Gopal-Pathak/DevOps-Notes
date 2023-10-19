@@ -149,3 +149,11 @@
 - Allows to store,retreive,access, and backup any amount of data at any time from anywhere over the internet.
 
 
+
+What are the different cloud security threats? How can you protect against them?
+What are the different cloud security compliance frameworks? How do you ensure compliance with these frameworks?
+What are your scripting skills? How do you use scripting to automate security tasks?
+What is your experience with identity and access management (IAM)? How do you implement IAM best practices?
+What is your experience with Virtual Private Cloud (VPC)? How do you use VPC to secure cloud environments?
+What is your experience with Cloud Governance, Regulatory and Compliances standards like CIS Benchmarks, PCI-DSS, etc.?
+What are your analytical and problem-solving skills? How do you identify and mitigate security risks?
